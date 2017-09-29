@@ -6,3 +6,13 @@ C:\Dev\devhome\core\webapi\kabunga-app\bin\Debug\netcoreapp1.1\kabunga-app.pdb
 C:\Dev\devhome\core\webapi\kabunga-app\obj\Debug\netcoreapp1.1\kabunga-app.AssemblyInfo.cs
 C:\Dev\devhome\core\webapi\kabunga-app\obj\Debug\netcoreapp1.1\kabunga-app.dll
 C:\Dev\devhome\core\webapi\kabunga-app\obj\Debug\netcoreapp1.1\kabunga-app.pdb
+C:\Users\Agaba\wbapi\kabunga-app\bin\Debug\netcoreapp1.1\kabunga-app.deps.json
+C:\Users\Agaba\wbapi\kabunga-app\bin\Debug\netcoreapp1.1\kabunga-app.runtimeconfig.json
+C:\Users\Agaba\wbapi\kabunga-app\bin\Debug\netcoreapp1.1\kabunga-app.runtimeconfig.dev.json
+C:\Users\Agaba\wbapi\kabunga-app\bin\Debug\netcoreapp1.1\kabunga-app.dll
+C:\Users\Agaba\wbapi\kabunga-app\bin\Debug\netcoreapp1.1\kabunga-app.pdb
+C:\Users\Agaba\wbapi\kabunga-app\obj\Debug\netcoreapp1.1\kabunga-app.csproj.CoreCompileInputs.cache
+C:\Users\Agaba\wbapi\kabunga-app\obj\Debug\netcoreapp1.1\kabunga-app.AssemblyInfoInputs.cache
+C:\Users\Agaba\wbapi\kabunga-app\obj\Debug\netcoreapp1.1\kabunga-app.AssemblyInfo.cs
+C:\Users\Agaba\wbapi\kabunga-app\obj\Debug\netcoreapp1.1\kabunga-app.dll
+C:\Users\Agaba\wbapi\kabunga-app\obj\Debug\netcoreapp1.1\kabunga-app.pdb
