@@ -1,0 +1,8 @@
+C:\Dev\devhome\core\webapi\kabunga-app\bin\Debug\netcoreapp1.1\kabunga-app.deps.json
+C:\Dev\devhome\core\webapi\kabunga-app\bin\Debug\netcoreapp1.1\kabunga-app.runtimeconfig.json
+C:\Dev\devhome\core\webapi\kabunga-app\bin\Debug\netcoreapp1.1\kabunga-app.runtimeconfig.dev.json
+C:\Dev\devhome\core\webapi\kabunga-app\bin\Debug\netcoreapp1.1\kabunga-app.dll
+C:\Dev\devhome\core\webapi\kabunga-app\bin\Debug\netcoreapp1.1\kabunga-app.pdb
+C:\Dev\devhome\core\webapi\kabunga-app\obj\Debug\netcoreapp1.1\kabunga-app.AssemblyInfo.cs
+C:\Dev\devhome\core\webapi\kabunga-app\obj\Debug\netcoreapp1.1\kabunga-app.dll
+C:\Dev\devhome\core\webapi\kabunga-app\obj\Debug\netcoreapp1.1\kabunga-app.pdb
