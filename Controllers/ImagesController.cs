@@ -14,7 +14,35 @@ namespace Controllers
         [HttpGet]
         public IEnumerable<Image> Get()
         {
-            var images = new List<Image>
+
+            return ImageList.Images();
+        }
+
+
+        // GET api/values/5
+        [HttpGet("{id}")]
+        public Image Get(int id)
+        {
+            return ImageList.Images()
+                             .Where(X => X.Id == id)
+                             .FirstOrDefault();
+        }
+
+        // GET api/values/5
+        [HttpGet("{title}")]
+        public Image Get(string title)
+        {
+            return ImageList.Images()
+                             .Where(X => X.Title == title)
+                             .FirstOrDefault();
+        }
+    }
+
+    public static class ImageList
+    {
+        public static IList<Image> Images()
+        {
+            return new List<Image>
                             {
                                 new Image
                                 {
@@ -48,7 +76,6 @@ namespace Controllers
                                 },
 
                             };
-            return images.ToList();
         }
     }
 
