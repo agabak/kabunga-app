@@ -19,14 +19,12 @@ namespace BusinessLogic.Services
         public Image GetImage(int id)
         {
             return ImageList.Images()
-                             .Where(x => x.Id == id)
-                             .FirstOrDefault();
+                             .FirstOrDefault(x => x.Id == id);
         }
         public Image GetImageByTitle(string title)
         {
             return ImageList.Images()
-                            .Where(x => x.Title == title)
-                            .FirstOrDefault();
+                            .FirstOrDefault(x => x.Title == title);
         }
     }
 

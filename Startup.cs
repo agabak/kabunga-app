@@ -33,6 +33,7 @@ namespace kabunga_app
 
             //Add  dependency injection 
             services.AddScoped<IImageService, ImageService>();
+            services.AddScoped<IEventService, EventService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
