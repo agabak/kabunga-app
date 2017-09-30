@@ -5,39 +5,42 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Model;
 
-namespace  Controllers 
+namespace Controllers
 {
+    [Route("api/[controller]")]
     public class ImagesController
     {
-         public IEnumerable<Image> Get()
-         {
-              var images = new List<Image>
+        // GET api/values
+        [HttpGet]
+        public IEnumerable<Image> Get()
+        {
+            var images = new List<Image>
                             {
-                                new Image 
+                                new Image
                                 {
                                     Id = 1,
                                     Title = "Generation stonwall",
                                     Url = "http://mtomawedemo.azurewebsites.net/img/banner/banner2_001.jpg"
                                 },
-                                new Image 
+                                new Image
                                 {
                                     Id = 2,
                                     Title = "Garden ston",
                                     Url = "http://mtomawedemo.azurewebsites.net/img/banner/banner2_002.jpg"
                                 },
-                                new Image 
+                                new Image
                                 {
                                     Id = 3,
                                     Title = "just stone",
                                     Url = "http://mtomawedemo.azurewebsites.net/img/banner/banner2_003.jpg"
                                 },
-                                new Image 
+                                new Image
                                 {
                                     Id = 4,
                                     Title = "coconut trees",
                                     Url = "http://mtomawedemo.azurewebsites.net/img/banner/banner2_004.jpg"
                                 },
-                                 new Image 
+                                 new Image
                                 {
                                     Id = 5,
                                     Title = "video photo",
@@ -45,8 +48,8 @@ namespace  Controllers
                                 },
 
                             };
-               return  images.ToList();
-         }
+            return images.ToList();
+        }
     }
 
 }
