@@ -13,8 +13,7 @@ namespace kabunga_app
 {
     public class Startup
     {
-        private readonly IEventService _EventService;
-        public Startup(IHostingEnvironment env,IEventService eventService)
+        public Startup(IHostingEnvironment env)
         {
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
@@ -22,7 +21,6 @@ namespace kabunga_app
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
                 .AddEnvironmentVariables();
             Configuration = builder.Build();
-            this._EventService = eventService;
         }
 
         public IConfigurationRoot Configuration { get; }
@@ -44,7 +42,7 @@ namespace kabunga_app
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
-            
+
             app.UseMvc();
         }
     }
