@@ -44,10 +44,8 @@ namespace kabunga_app
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
-
-            app.UseMvc(routes => {
-                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
-            });
+            
+            app.UseMvc();
         }
     }
 }
