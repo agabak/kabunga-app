@@ -26,6 +26,7 @@ namespace Controllers
             return this._EventService.GetEventById(id);
         }
 
+        [Route("api/title/[controller]")]
         [HttpGet("{title}")]
         public Event Get(string title)
         {
